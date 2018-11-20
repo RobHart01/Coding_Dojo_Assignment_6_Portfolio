@@ -1,0 +1,87 @@
+@font-face {
+  font-family: "SF";
+  src: url("SF-Font.dmg");
+}
+@font-face {
+  font-family: "Modern-Sans-Light";
+  src: url("fonts/ModernSans-Light.otf");
+}
+@font-face {
+  font-family: "shocking-headline";
+  src: url("fonts/Shocking\ Headline\ DF.otf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body html {
+  height: 100%;
+}
+
+.title {
+  background-image: url("pnw-sun-rise.png");
+  height: 939px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.nav {
+  font-family: "Modern-Sans-Light";
+  font-weight: 600;
+}
+.nav ul {
+  text-align: center;
+}
+.nav li {
+  display: inline-block;
+  padding: 10px;
+  list-style-type: none;
+}
+.nav a {
+  text-decoration: none;
+  color: white;
+}
+
+.header {
+  padding: 40px;
+  text-align: center;
+}
+.header h1 {
+  color: white;
+  font-family: "shocking-headline";
+  letter-spacing: 10px;
+  font-size: 48px;
+  text-transform: uppercase;
+}
+.sub-header {
+  font-weight: 600;
+  color: black;
+  margin-top: 40px;
+  font-family: "Modern-Sans-Light";
+}
+
+#bis {
+  padding: 20px;
+}
+
+.about {
+  font-family: "modern-sans-light";
+  color: white;
+  width: 400px;
+  margin: auto;
+  padding: 40px 100px;
+  margin-top: 200px;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.about h3 {
+  padding: 10px;
+}
+
+.about p {
+  padding: 10px;
+  line-height: 20px;
+}
